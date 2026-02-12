@@ -3,9 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Netflix</title>
+    <title>Home | Netflix by Vince</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Netflix Test if it works</h1>
+    <!-- Navbar -->
+    <nav>
+      <div class="nav_left">
+        <img src="/assets/logo.svg" alt="Netflix logo" />
+      </div>
+      <div class="nav_right">
+        <img src="/assets/avatar.png" alt="Avatar logo" />
+      </div>
+    </nav>
+
+    <!-- Banner -->
+    <header id="banner">
+      <div class="banner_contents">
+        <h1 id="banner_tittle"></h1>
+        <div id="banner_buttons">
+          <div id="banner_button">Play</div>
+          <div id="banner_button">My List</div>
+        </div>
+        <p class="banner_descriptions"></p>
+      </div>
+      <div id="banner_fadeBottom"></div>
+    </header>
+
+    <!-- Row -->
+    <div id="headrow">
+      <h2 class="row_title"></h2>
+      <div class="row_posters"></div>
+    </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
